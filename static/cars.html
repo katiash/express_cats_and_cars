@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div>
+            <p style="color: red">This image is not served, because it is not located directly within the '/static' directory of the project.</p>
+           <img src="11_benz_200.jpg" alt="2011 Mercedes-Benz 200" height="42" width="42">
+        </div>
+        <br>
+        <div>
+            <p style= "color: green">This image is served because it is located directly within the '/static' directory of the project</p>
+            <img src="2012-maserati-granturismo-mc-stradale-lionel-messi-0.jpg" alt="2012-maserati-granturismo" height="42" width="42">
+        </div>
+        <div>
+            <p style= "color: green">This image is served because it is referred to by absolute path within the .html file relative to the .html file that contains it.</p>
+            <img src="./images/cars/2016_aston-martin_vanquish_coupe_base_fq_oem_6_1280.jpg" alt="2016_aston-martin_vanquish_coupe" height="42" width="42">
+        </div>   
+    </body>
+</html>
